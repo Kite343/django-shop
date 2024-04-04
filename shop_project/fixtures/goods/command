@@ -1,0 +1,3 @@
+python -Xutf8 manage.py dumpdata goods.Categories -o fixtures/goods/cats.json
+
+python manage.py loaddata fixtures/goods/cats.json
